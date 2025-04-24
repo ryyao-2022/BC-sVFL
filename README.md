@@ -22,9 +22,9 @@ The BC-sVFL framework introduces several key components and mechanisms:
 
 The code for this project is organized into several main sections:
 
-- **Data Preprocessing**: This module handles the initial preparation of data from different sectors, ensuring compatibility for federated learning models. The code is availabe at [VFL code](https://github.com/ryyao-2022/BC-sVFL/vfl).
-- **Federated Learning Module**: Implements the core VFL model, integrating privacy-preserving mechanisms like the improved loss function and functional encryption. The code is availabe at [VFL code](https://github.com/ryyao-2022/BC-sVFL/vfl).
-- **Blockchain Layer**: Facilitates secure training protocol automation and key exchanges, enhancing model integrity and accountability. The base code construction using Hyperledger Fabric is availabe at [Blockchain code](https://github.com/ryyao-2022/BC-sVFL/blockchain).
-- **Simulation and Evaluation**: Provides scripts and tools to visualize and validate the BC-sVFL framework using niceGUI. The code is availabe at [UI Implementation](https://github.com/ryyao-2022/BC-sVFL/ui).
+- **Data Preprocessing**: This module handles the initial preparation of data from different sectors, ensuring compatibility for federated learning models. The code is availabe at [VFL code](https://github.com/ryyao-2022/BC-sVFL/tree/main/vfl).
+- **Federated Learning Module**: Implements the core VFL model, integrating privacy-preserving mechanisms like the improved loss function and functional encryption. The code is availabe at [VFL code](https://github.com/ryyao-2022/BC-sVFL/tree/main/vfl).
+- **Blockchain Layer**: Facilitates secure training protocol automation and key exchanges, enhancing model integrity and accountability. The base code construction using Hyperledger Fabric is availabe at [Blockchain code](https://github.com/ryyao-2022/BC-sVFL/tree/main/blockchain).
+- **Simulation and Evaluation**: Provides scripts and tools to visualize and validate the BC-sVFL framework using niceGUI. The code is availabe at [UI Implementation](https://github.com/ryyao-2022/BC-sVFL/tree/main/ui).
 
 To get started, clone the repository and follow the installation instructions provided in the documentation. Detailed comments and documentation are included within the code to guide further implementation and customization.
