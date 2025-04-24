@@ -8,7 +8,7 @@ Load forecasting in multi-energy systems (MES) is crucial for optimizing resourc
 
 In multi-energy systems, load data from various sectors is critical for forecasting and improving system efficiency. However, the proprietary nature of this data and potential privacy concerns hinder sharing among different sectors, like cooling, heating, and electricity. Traditional methods relying on centralized data can compromise privacy, necessitating a secure approach to jointly utilize data across sectors without compromising ownership or confidentiality.
 
-![Problems in current practices](problem statement.png)
+![Problems in current practices](ps.png)
 
 ## Schemes
 
