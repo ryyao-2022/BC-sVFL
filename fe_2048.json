@@ -1,0 +1,7 @@
+{
+  "extends": "fe_smoke.json",
+  "data": {"max_train_samples": 2, "max_val_samples": 2, "max_test_samples": 2},
+  "training": {"epochs": 1, "batch_size": 2},
+  "model": {"representation_dim": 2, "server_hidden_dim": 2},
+  "crypto": {"options": {"group": "rfc3526_2048"}}
+}

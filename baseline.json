@@ -1,0 +1,4 @@
+{
+  "extends": "default.json",
+  "training": {"mode": "single", "dcl_alpha": {"electricity": 0.0, "steam": 0.0, "cooling": 0.0}}
+}

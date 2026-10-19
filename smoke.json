@@ -1,0 +1,10 @@
+{
+  "extends": "default.json",
+  "data": {"max_train_samples": 32, "max_val_samples": 8, "max_test_samples": 8},
+  "training": {"epochs": 2, "batch_size": 8, "patience": 2},
+  "model": {
+    "encoder_hidden": [8], "representation_dim": 4,
+    "server_hidden_dim": 8, "server_output_dim": 8,
+    "decoder_hidden": [8], "baseline_hidden": [8, 8, 8]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "smoke.json",
+  "data": {"max_train_samples": 8, "max_val_samples": 4, "max_test_samples": 4},
+  "training": {"epochs": 2, "batch_size": 4},
+  "crypto": {
+    "backend": "reference_fe",
+    "options": {"group": "toy31", "z_scale": 100, "w_scale": 100,
+                "z_bound": 4.0, "w_bound": 2.0}
+  }
+}
